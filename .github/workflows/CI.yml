@@ -20,7 +20,7 @@ jobs:
          dotnet-version: '6.0.x'
 
     -  name: Install Test Platform
-       working-directory: /home/runner/work/CICalculator/Calculations
+       working-directory: /home/runner/work/CICalculator
        run: dotnet add package Microsoft.TestPlatform --version 17.5.0
 
     -  name: Dependency Restore
